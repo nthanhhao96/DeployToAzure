@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    h1= 'New Year\'s flowers and plants'
+    ul
+        each thing in things
+            li= thing.eng + ' - ' + thing.viet + ' ' + '(' + thing.type + ')'
+

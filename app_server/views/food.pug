@@ -1,0 +1,7 @@
+extends layout
+
+block content
+    h1= 'Essential Foods for Tet holiday'
+    ul
+        each thing in things
+            li= thing.eng + ': ' + thing.viet
